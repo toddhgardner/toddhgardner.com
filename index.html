@@ -1,0 +1,32 @@
+---
+layout: home
+---
+
+<div class="home">
+
+  <div class="page-content accented">
+    <div class="wrapper">
+      <img class="page-image" src="img/toddhgardner-240x240.jpg" alt="Todd H Gardner">
+      <h1 class="page-heading">Hey!</h1>
+      <div class="page-description">
+        <p>
+          I'm Todd :). I develop businesses and software, usually for the web. I'm the co-founder of <a href="http://trackjs.com/">{Track:js}</a>. I also consult and speak, we should <a href="">work together</a>.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+    <ul class="post-list">
+      {% for post in site.posts %}
+        <li class="post-item">
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <h2 class="post-title">{{ post.title }}</h2>
+            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+</div>

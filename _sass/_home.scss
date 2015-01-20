@@ -1,0 +1,77 @@
+/**
+  * Home Layout Styles
+  */
+
+.layout-home {
+
+  .page-content {
+    text-align: center;
+    margin-top: 120px;
+
+    img {
+      margin-top: -120px;
+      border-radius: 170px;
+      border: 20px solid $grey-color-dark;
+    }
+
+  }
+
+  .page-heading {
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  .page-description {
+    font-size: 18px;
+  }
+
+  .post-list {
+    margin: 40px 0;
+
+    a {
+      color: $text-color;
+      &:hover, &:active, &:focus {
+        color: $brand-color;
+      }
+    }
+
+    .post-item {
+      display: block;
+      margin: 0;
+      clear: both;
+      height: 48px;
+    }
+
+    .post-title {
+      font-size: 20px;
+      font-weight: normal;
+      float: left;
+    }
+    .post-date {
+      font-size: 18px;
+      float: right;
+      color: lighten($text-color, 33%);
+    }
+
+    @include media-query($on-palm) {
+      .post-item {
+        margin-bottom: 20px;
+      }
+
+      .post-title {
+        display: block;
+        font-size: 24px;
+        margin-bottom: 5px;
+        float: none;
+      }
+
+      .post-date {
+        display: block;
+        font-size: 16px;
+        float: none;
+      }
+    }
+
+  }
+
+}

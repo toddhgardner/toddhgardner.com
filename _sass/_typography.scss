@@ -1,0 +1,28 @@
+
+/**
+  * Typography Styles
+  */
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: lighten($brand-color, 33%);
+    text-decoration: none;
+  }
+}
+
+.accented a {
+  color: lighten($brand-color, 33%);
+  text-decoration: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: lighten($brand-color, 20%);
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,10 @@
+<script>
+  /** Async load Google Fonts
+    * This prevents a paint delay when Google fonts is slow
+    */
+  var resource = document.createElement('link');
+  resource.setAttribute('rel', 'stylesheet');
+  resource.setAttribute('href', 'http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700');
+  resource.setAttribute('type', 'text/css');
+  document.getElementsByTagName('head')[0].appendChild(resource);
+</script>
