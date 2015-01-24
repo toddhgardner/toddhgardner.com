@@ -2,7 +2,18 @@
   <div class="wrapper">
     <div class="footer-col-wrapper">
 
-      <div class="footer-col footer-col-1"></div>
+      <div class="footer-col footer-col-1 footer-about">
+        {% if page.hideFooterAbout == null || page.hideFooterAbout == true %}
+        <div class="about-image">
+          <img src="/img/toddhgardner-120x120.jpg" alt="Todd H Gardner">
+        </div>
+        <div class="about-text">
+          <p>
+            <strong>Hey!</strong><br>I'm Todd :). I develop businesses and software, usually for the web. I'm the co-founder of <a href="http://trackjs.com/">{Track:js}</a>. I also consult and speak, we should <a href="">work together</a>.
+          </p>
+        </div>
+        {% endif %}
+      </div>
 
       <div class="footer-col footer-col-2">
         <ul class="social-media-list">
