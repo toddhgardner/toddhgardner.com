@@ -18,7 +18,11 @@ hideFooterAbout: true
   </div>
 
   <div class="wrapper">
+    <div style="font-size:24px;text-align:center;margin:120px 0;">
+      I'll post something here, someday :)
+    </div>
     <ul class="post-list">
+      {% if false %}
       {% for post in site.posts %}
         <li class="post-item">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -27,6 +31,7 @@ hideFooterAbout: true
           </a>
         </li>
       {% endfor %}
+      {% endif %}
     </ul>
   </div>
 
