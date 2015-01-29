@@ -17,3 +17,5 @@ highlighter: rouge
 encoding: utf-8
 
 permalink: blog/:title
+
+exclude: [ node_modules, Gruntfile.js, package.json, README.md, toddmn.sublime-project ]

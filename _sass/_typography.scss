@@ -15,6 +15,10 @@ a {
   }
 }
 
+.text-center {
+  text-align: center;
+}
+
 .accented a {
   color: lighten($brand-color, 33%);
   text-decoration: none;
