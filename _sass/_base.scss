@@ -20,6 +20,7 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: $background-color;
+    -webkit-font-smoothing: subpixel-antialiased;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -35,6 +36,13 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+
+/**
+  * Hiding
+  */
+.hide,.hidden {
+    display: none;
+}
 
 
 /**

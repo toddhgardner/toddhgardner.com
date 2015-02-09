@@ -10,11 +10,11 @@ After some quick searching, it looks like there are a few ways to make this happ
 
 Instead, I setup forwarding. From you Google Apps account, setup Account Forwarding to your personal account.
 
-![Google Apps Setup](/img/combine-gmail-google-apps-inbox-1.png){: .center }
+![Google Apps Setup](/img/combine-gmail-google-apps-inbox-1.png)
 
 You'll have to confirm it with an emailed link to your personal account, but that easily solves the first part of the problem. Now you need to respond. From your Gmail account, setup a an account to "Send Mail As" and add your information.
 
-![Gmail Setup](/img/combine-gmail-google-apps-inbox-2.png){: .center }
+![Gmail Setup](/img/combine-gmail-google-apps-inbox-2.png)
 
 Make sure to check "Reply from the same address the message was sent to", so you don't get some confused customers.
 

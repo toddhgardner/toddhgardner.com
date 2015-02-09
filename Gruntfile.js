@@ -7,10 +7,6 @@ module.exports = function(grunt) {
     'watch'
   ]);
 
-  grunt.registerTask( 'test' , [
-    'htmllint'
-  ]);
-
   grunt.registerTask( 'compile' , [
     'clean',
     'jekyll',
@@ -70,10 +66,6 @@ module.exports = function(grunt) {
       }
     },
 
-    htmllint: {
-      test: [ "**/*.html" ]
-    },
-
     htmlmin: {
       compile: {
         options: {
@@ -123,7 +115,8 @@ module.exports = function(grunt) {
         'css/**',
         'img/**',
         '_config.yml',
-        '*.html'
+        '*.html',
+        '*.md'
       ],
       tasks : [ 'jekyll' ]
     }

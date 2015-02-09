@@ -3,14 +3,17 @@
   * Typography Styles
   */
 
-a {
+a,
+a:visited {
   color: $brand-color;
   text-decoration: none;
+  transition: color ease 0.7s;
+  -webkit-transition: color ease 0.7s;
 
   &:hover,
   &:active,
   &:focus {
-    color: lighten($brand-color, 33%);
+    color: lighten($brand-color, 20%);
     text-decoration: none;
   }
 }
