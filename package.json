@@ -24,6 +24,7 @@
     "grunt-hashres": "^0.4.1",
     "grunt-html": "^1.6.0",
     "grunt-jekyll": "0.4.2",
+    "grunt-scp": "^0.1.8",
     "imagemin-mozjpeg": "^4.0.0"
   }
 }

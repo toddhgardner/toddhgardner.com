@@ -34,6 +34,7 @@
 }
 
 .site-nav {
+  display: none; // TODO Remove this when we need a nav
   float: right;
   line-height: 56px;
 
@@ -58,7 +59,6 @@
     position: absolute;
     top: 9px;
     right: 0;
-    left: 0;
     text-align: right;
 
     .menu-icon {

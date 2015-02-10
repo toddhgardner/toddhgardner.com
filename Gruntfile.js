@@ -16,6 +16,11 @@ module.exports = function(grunt) {
     'hashres'
   ]);
 
+  grunt.registerTask( 'deploy' , [
+    'compile',
+    'scp'
+  ]);
+
   var mozjpeg = require('imagemin-mozjpeg');
 
   grunt.loadNpmTasks('grunt-contrib-clean');
@@ -27,6 +32,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-hashres');
   grunt.loadNpmTasks('grunt-html');
   grunt.loadNpmTasks('grunt-jekyll');
+  grunt.loadNpmTasks('grunt-scp');
   grunt.initConfig({
 
     pkg: grunt.file.readJSON('package.json'),
@@ -71,6 +77,8 @@ module.exports = function(grunt) {
         options: {
           removeComments: true,
           collapseWhitespace: true,
+          removeScriptTypeAttributes: true,
+          removeStyleLinkTypeAttributes: true,
           minifyCSS: true,
           minifyJS: true
         },
@@ -105,6 +113,22 @@ module.exports = function(grunt) {
         }
       }
     },
+
+      scp: {
+    options: {
+        host: 'todd.mn',
+        username: 'root'
+    },
+    prod: {
+        files: [{
+            cwd: '_site',
+            src: '**/*',
+            filter: 'isFile',
+            // path on the server
+            dest: '/var/www/todd.mn/html'
+        }]
+    },
+  },
 
     watch : {
       files : [
