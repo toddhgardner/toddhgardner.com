@@ -114,21 +114,21 @@ module.exports = function(grunt) {
       }
     },
 
-      scp: {
-    options: {
-        host: 'todd.mn',
-        username: 'root'
+    scp: {
+      options: {
+          host: 'todd.mn',
+          username: 'root'
+      },
+      prod: {
+          files: [{
+              cwd: '_site',
+              src: '**/*',
+              filter: 'isFile',
+              // path on the server
+              dest: '/var/www/todd.mn/html'
+          }]
+      },
     },
-    prod: {
-        files: [{
-            cwd: '_site',
-            src: '**/*',
-            filter: 'isFile',
-            // path on the server
-            dest: '/var/www/todd.mn/html'
-        }]
-    },
-  },
 
     watch : {
       files : [

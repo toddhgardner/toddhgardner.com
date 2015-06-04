@@ -7,8 +7,8 @@ a,
 a:visited {
   color: $brand-color;
   text-decoration: none;
-  transition: color ease 0.7s;
-  -webkit-transition: color ease 0.7s;
+  transition: color ease 350ms;
+  -webkit-transition: color ease 350ms;
 
   &:hover,
   &:active,
