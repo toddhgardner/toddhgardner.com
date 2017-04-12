@@ -7,8 +7,6 @@ categories: howto
 
 I just purchased a new 2015 Macbook Pro, which is fantastic. The first brand of computer that I've ever purchased more than once. But they have a major flaw: the Power Adapter cords. Maybe I'm just too rough with them, but they tear and fray on me around the ends.
 
-TODO Frayed Image.
-
 These cables aren't cheap, so one of the first things I did after unboxing was to reinforce the cables. It's a quick hack that you can do with a few extra clicky-pens you have laying about.
 
 ![Spring wrapped on Apple Power Cable](/img/apple-power-adapter-hack/1.jpg)
