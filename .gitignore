@@ -1,5 +1,3 @@
 _site
-.sass-cache
-*.sublime-workspace
+.asset-cache
 *.DS_Store
-node_modules
