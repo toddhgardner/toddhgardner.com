@@ -4,6 +4,8 @@
 
 .post {
   font-family: $content-font-family;
+  font-size: 1.2em;
+  line-height: 2em;
   img {
     border: 10px solid $grey-color-light;
     width: 95%;
@@ -18,9 +20,10 @@
 }
 
 .post-title {
-  font-size: 42px;
+  font-size: 32px;
   letter-spacing: -1px;
   line-height: 1;
+  margin-bottom: 5px;
 
   @include media-query($on-laptop) {
     font-size: 36px;
@@ -32,27 +35,17 @@
   margin-bottom: $spacing-unit;
 
   h2 {
-    font-size: 32px;
-
-    @include media-query($on-laptop) {
-      font-size: 28px;
-    }
+    font-size: 26px;
+    margin-top: 26px;
   }
 
   h3 {
-    font-size: 26px;
-
-    @include media-query($on-laptop) {
-      font-size: 22px;
-    }
+    font-size: 20px;
+    margin-top: 20px;
   }
 
   h4 {
-    font-size: 20px;
-
-    @include media-query($on-laptop) {
-      font-size: 18px;
-    }
+    font-size: 18px;
   }
 }
 
