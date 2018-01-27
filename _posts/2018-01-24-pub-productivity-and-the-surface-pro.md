@@ -13,7 +13,7 @@ Tablets are still, mostly, about consumption. You watch, read, play, and listen 
 ## Apple iPad Pro
 My main computer is a 2016 15" Macbook Pro from before the touchbar garbage. I love it, so it was obvious to start with what Apple sees as the solution for the mobile worker: the iPad Pro.
 
-The hardware on the iPad Pro is amazing. It's light. It's fast. It's responsie. It's almost perfect, except for:
+The hardware on the iPad Pro is amazing. It's light. It's fast. It's responsive. It's almost perfect, except for:
 
 ![Uneven keyboard cover on the iPad Pro]({{page.imageBaseUrl}}/ipad-pro-cover.png)
 
@@ -40,7 +40,7 @@ As is my theme here, the software is really the trouble. The Surface Pro runs Wi
 
 The "entry level" Surface Pro, with a Core M processor, is woefully unusable--incapable of driving the OS alone jank-free. Don't bother with anything less than the Core i5. Even then, the device shudders occasionally while resuming, switching apps, or rotating the screen.
 
-Expect to spend the first 24 hours installing the updates for Windows, reversing the "helpful" setting defaults, and removing their pre-insralled bloatware. 
+Expect to spend the first 24 hours installing the updates for Windows, reversing the "helpful" setting defaults, and removing their pre-installed bloatware. 
 
 Candy Crush? Really Microsoft?
 
