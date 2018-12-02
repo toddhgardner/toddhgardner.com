@@ -1,9 +1,9 @@
 # Site settings
 title: Todd H. Gardner
 description: > # this means to ignore newlines until "baseurl:"
-  Hey! I'm Todd. I develop businesses and build software. I'm the President and Cofounder 
-  of TrackJS and the Producer of PubConf. I also consult, train, and speak at all kinds of 
-  organizations.
+    Hey! I'm Todd. I develop businesses and build software. I'm the President and Cofounder
+    of TrackJS and the Producer of PubConf. I also consult, train, and speak at all kinds of
+    organizations.
 image: "/assets/img/toddhgardner-og.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://todd.mn" # the base hostname & protocol for your site
@@ -21,11 +21,11 @@ encoding: utf-8
 permalink: article/:title/
 
 plugins:
-  - jekyll-assets
-  - jekyll-redirect-from
+    - jekyll-assets
+    - jekyll-redirect-from
 
 exclude:
-  - "Gemfile*"
-  - "README.md"
-  - vendor
+    - "Gemfile*"
+    - "README.md"
+    - vendor
 
