@@ -14,11 +14,10 @@ linkedin_username: toddhgardner
 
 # Build settings
 markdown: kramdown
-
 highlighter: rouge
 encoding: utf-8
 
-permalink: article/:title/
+permalink: /:categories/:title/
 
 plugins:
     - jekyll-assets

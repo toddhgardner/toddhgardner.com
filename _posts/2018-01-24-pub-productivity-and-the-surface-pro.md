@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Pub Productivity and the Surface Pro"
+title: "Pub Productivity and the Surface Pro"
 imageBaseUrl: /assets/img/posts/pub-productivity-and-the-surface-pro
+categories: article
 ---
 
 I wanted a device for working from the Pub. As a small-business owner, I'm always working: at home, at lunch, at happy-hour. I wanted a device more portable than my workhorse laptop so that I could effortlessly bring it with me, but more functional than my mobile phone.
@@ -40,7 +41,7 @@ As is my theme here, the software is really the trouble. The Surface Pro runs Wi
 
 The "entry level" Surface Pro, with a Core M processor, is woefully unusable--incapable of driving the OS alone jank-free. Don't bother with anything less than the Core i5. Even then, the device shudders occasionally while resuming, switching apps, or rotating the screen.
 
-Expect to spend the first 24 hours installing the updates for Windows, reversing the "helpful" setting defaults, and removing their pre-installed bloatware. 
+Expect to spend the first 24 hours installing the updates for Windows, reversing the "helpful" setting defaults, and removing their pre-installed bloatware.
 
 Candy Crush? Really Microsoft?
 

@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Apple Power Adapter Hack"
+title: "Apple Power Adapter Hack"
 imageBaseUrl: /assets/img/posts/apple-power-adapter-hack
+categories: article
 ---
 
 I just purchased a new 2015 Macbook Pro, which is fantastic. The first brand of computer that I've ever purchased more than once. But they have a major flaw: the Power Adapter cords. Maybe I'm just too rough with them, but they tear and fray on me around the ends.
