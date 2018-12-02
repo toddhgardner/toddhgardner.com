@@ -1,4 +1,7 @@
 # todd.mn
+
+[![Build Status](https://travis-ci.com/toddhgardner/toddhgardner.github.io.svg?branch=sources)](https://travis-ci.com/toddhgardner/toddhgardner.github.io)
+
 Home Website for Todd Gardner
 
 ## Dependencies
