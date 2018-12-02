@@ -1,3 +1,7 @@
+# Ruby
+Gemfile.lock
+
+# Jekyll
 .asset-cache
 .sass-cache
 _site
@@ -5,7 +9,7 @@ _site
 # OSX
 *.DS_Store
 
-# Ignore TravisCI artifacts
+# TravisCI
 .bundle
 vendor
 
