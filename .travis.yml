@@ -10,10 +10,10 @@ before_script:
 script: ./_tools/build
 
 # branch whitelist, only for GitHub Pages
-# branches:
-#   only:
-#   - gh-pages     # test the gh-pages branch
-#   - /pages-(.*)/ # test every branch which starts with "pages-"
+branches:
+  except:
+    - master
+
 
 # env:
 #   global:
@@ -33,12 +33,12 @@ notifications:
   email: true
 
 
-# deploy:
-#   provider: pages
-#   skip-cleanup: true
-#   github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-#   keep-history: true
-#   on:
-#     branch: master
-#   target-branch: master
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: sources
+  target-branch: master
 
