@@ -1,3 +1,9 @@
 _site
 .asset-cache
+.sass-cache
 *.DS_Store
+
+# Ignore TravisCI artifacts
+.bundle
+vendor
+
