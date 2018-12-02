@@ -20,9 +20,11 @@ encoding: utf-8
 
 permalink: article/:title/
 
-gems:
+plugins:
   - jekyll-assets
+  - jekyll-redirect-from
 
 exclude:
   - "Gemfile*"
   - "README.md"
+
