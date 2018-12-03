@@ -19,33 +19,3 @@ layout: default
         </div>
     </div>
 </div>
-
-<script type="application/ld+json">
-    {
-        "@context": "http://schema.org",
-        "@type": "NewsArticle",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "{{site.url}}/{{page.url}}"
-        },
-        "headline": "{{page.title}}",
-        "image": "{% if page.image %}{{site.url}}{{page.image}}{% else %}{{site.url}}{{site.image}}{% endif %}",
-        "datePublished": "{{page.date | date: "%FT%T" }}",
-        "dateModified": "{{page.date | date: "%FT%T" }}",
-        "author": {
-            "@type": "Person",
-            "@id": "{{site.url}}",
-            "name": "{{site.title}}",
-            "image": "{{site.url}}/{{site.image}}"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "{{site.title}}",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "{{site.url}}{{site.image}}"
-            }
-        },
-        "description": "{{page.excerpt | strip_html | strip_newlines | truncate: 160}}"
-    }
-</script>
