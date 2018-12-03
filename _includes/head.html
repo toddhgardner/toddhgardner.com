@@ -21,7 +21,7 @@
         "@id": "{{ site.url }}{{ site.baseurl }}",
         "name": "{{ site.title }}",
         "description": "{{ site.description | strip_newlines }}",
-        "image": "{{ site.url }}{{ site.baseurl }}assets/img/toddhgardner-480.jpg",
+        "image": "{{ site.url }}{{ site.baseurl }}/assets/img/toddhgardner-480.jpg",
         "sameAs": [
             "https://www.facebook.com/{{ site.facebook_username }}",
             "https://www.twitter.com/{{ site.twitter_username }}",
@@ -83,12 +83,14 @@
     <meta property="og:locale" content="en_US" />
     <meta property="article:author" content="https://www.facebook.com/{{ site.facebook_username }}" />
     <meta property="article:publisher" content="https://www.facebook.com/{{ site.facebook_username }}" />
-    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
+    <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}?{{ site.time | date: '%s%N' }}" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
     <meta name="twitter:site" content="@{{ site.twitter_username }}">
-    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}?{{ site.time | date: '%s%N' }}" />
 
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/feed.xml" />
