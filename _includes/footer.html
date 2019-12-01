@@ -16,39 +16,21 @@
     {% endif %}
 
     <ul class="social-media-list">
-
-      {% if site.twitter_username %}
       <li>
-        <a class="icon-twitter" href="https://twitter.com/{{ site.twitter_username }}" title="{{ site.twitter_username }}">
+        <a class="icon-twitter" href="https://twitter.com/toddhgardner" title="Twitter Profile">
           <span class="hidden">Twitter</span>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.facebook_username %}
       <li>
-        <a class="icon-facebook" href="https://www.facebook.com/{{ site.facebook_username }}" title="{{ site.facebook_username }}">
-          <span class="hidden">Facebook</span>
-        </a>
-      </li>
-      {% endif %}
-
-      {% if site.github_username %}
-      <li>
-        <a class="icon-github-circled" href="https://github.com/{{ site.github_username }}" title="{{ site.github_username }}">
+        <a class="icon-github-circled" href="https://github.com/toddhgardner" title="GitHub Profile">
           <span class="hidden">Github</span>
         </a>
       </li>
-      {% endif %}
-
-      {% if site.linkedin_username %}
       <li>
-        <a class="icon-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}" title="{{ site.linkedin_username }}">
+        <a class="icon-linkedin" href="https://linkedin.com/in/toddhgardner" title="LinkedIN Profile">
           <span class="hidden">LinkedIN</span>
         </a>
       </li>
-      {% endif %}
-
       <li>
         <a class="icon-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}" title="Subscribe via RSS">
           <span class="hidden">RSS</span>
@@ -57,9 +39,9 @@
     </ul>
 
     <div class="footer-legal">
-      All content appearing on this website is proprietary, copyrighted and owned or licensed by G12 Solutions LLC. Any unauthorized use of trademarks or content from this website is strictly prohibited. All rights reserved.
+      All content appearing on this website is proprietary, copyrighted and owned or licensed by Todd H. Gardner. Any unauthorized use of trademarks or content from this website is strictly prohibited. All rights reserved.
       <br /><br />
-      Copyright © 2010-{{ site.time | date: '%Y' }} G12 Solutions LLC
+      Copyright © 2010-{{ site.time | date: '%Y' }} Todd H. Gardner
     </div>
   </div>
 

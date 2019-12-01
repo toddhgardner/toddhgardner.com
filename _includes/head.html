@@ -23,10 +23,9 @@
         "description": "{{ site.description | strip_newlines }}",
         "image": "{{ site.url }}{{ site.baseurl }}/assets/img/toddhgardner-480.jpg",
         "sameAs": [
-            "https://www.facebook.com/{{ site.facebook_username }}",
-            "https://www.twitter.com/{{ site.twitter_username }}",
-            "https://github.com/{{ site.github_username }}",
-            "https://linkedin.com/in/{{ site.linkedin_username }}"
+            "https://www.twitter.com/toddhgardner",
+            "https://github.com/toddhgardner",
+            "https://linkedin.com/in/toddhgardner"
         ],
         "affiliation": [
             {
@@ -81,15 +80,14 @@
     <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}" />
     <meta property="og:type" content="article" />
     <meta property="og:locale" content="en_US" />
-    <meta property="article:author" content="https://www.facebook.com/{{ site.facebook_username }}" />
-    <meta property="article:publisher" content="https://www.facebook.com/{{ site.facebook_username }}" />
+    <meta property="article:author" content="Todd H. Gardner" />
     <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}?{{ site.time | date: '%s%N' }}" />
 
     <!-- Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description | strip_newlines }}{% endif %}">
-    <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    <meta name="twitter:site" content="@toddhgardner">
     <meta name="twitter:image" content="{{ site.url }}{{ site.baseurl }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}?{{ site.time | date: '%s%N' }}" />
 
     <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
