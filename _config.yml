@@ -23,4 +23,5 @@ exclude:
   - "Gemfile*"
   - "README.md"
   - "LICENSE"
+  - "vendor" # this folder is added by Travis during build
 
