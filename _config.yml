@@ -20,8 +20,6 @@ sass:
 plugins:
   - jekyll-redirect-from
 
-include: [".well-known"]
-
 exclude:
   - "Gemfile*"
   - "README.md"
