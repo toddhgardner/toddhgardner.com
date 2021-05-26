@@ -14,13 +14,14 @@ markdown: kramdown
 highlighter: rouge
 encoding: utf-8
 
+sass:
+  sass_dir: "assets/css"
+
 plugins:
-  - jekyll-assets
   - jekyll-redirect-from
 
 exclude:
   - "Gemfile*"
   - "README.md"
   - "LICENSE"
-  - "vendor" # this folder is added by Travis during build
 
