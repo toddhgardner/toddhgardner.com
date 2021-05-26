@@ -20,8 +20,7 @@ sass:
 plugins:
   - jekyll-redirect-from
 
-include:
-  - ".well-known"
+include: [".well-known"]
 
 exclude:
   - "Gemfile*"
