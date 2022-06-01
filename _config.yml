@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   of TrackJS and the Producer of PubConf. I also consult, train, and speak at all kinds of
   organizations.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://todd.mn" # the base hostname & protocol for your site
+url: "https://toddhgardner.com" # the base hostname & protocol for your site
 image: "/assets/img/toddhgardner-og.jpg"
 
 permalink: /:categories/:title/
