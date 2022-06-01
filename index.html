@@ -31,3 +31,36 @@ hideFooterAbout: true
     </div>
 
 </div>
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "@id": "{{ site.url }}",
+    "name": "{{ site.title | escape}}",
+    "description": "{{ site.description | strip_newlines | escape }}",
+    "image": "{{ site.url }}{{ site.baseurl }}/assets/img/toddhgardner-480.jpg",
+    "sameAs": [
+        "https://www.twitter.com/toddhgardner",
+        "https://github.com/toddhgardner",
+        "https://linkedin.com/in/toddhgardner"
+    ],
+    "affiliation": [
+        {
+            "@type": "Organization",
+            "@id": "https://trackjs.com/",
+            "name": "TrackJS"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://requestmetrics.com/",
+            "name": "Request Metrics"
+        },
+        {
+            "@type": "Organization",
+            "@id": "https://pubconf.io/",
+            "name": "PubConf"
+        }
+    ]
+}
+</script>

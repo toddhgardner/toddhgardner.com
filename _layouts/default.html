@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en_US">
 {% include head.html %}
-<body>
+<body class="{{ layout.body_class }} {{ page.body_class }}">
     {% include header.html %}
-    {{ content }}
+    <main class="default-layout-content" aria-label="Content">
+        {{ content }}
+    </main>
     {% include footer.html %}
 </body>
 </html>
