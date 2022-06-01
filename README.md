@@ -1,7 +1,5 @@
 # todd.mn
 
-[![Build Status](https://travis-ci.com/toddhgardner/todd.mn.svg?branch=sources)](https://travis-ci.com/toddhgardner/todd.mn)
-
 Professional site for [Todd H. Gardner](https://todd.mn/).
 
 ## What Is This?
