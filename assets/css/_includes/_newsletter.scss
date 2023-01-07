@@ -1,0 +1,44 @@
+section.newsletter {
+
+  padding: 60px 0;
+  background-color: $grey-color-light;
+  text-align: center;
+
+  h2 {
+    margin-bottom: 0
+  }
+  .subtitle {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+
+  form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    input {
+      padding: 4px 8px;
+      margin: 5px;
+      font-size: 1.4em;
+      &[type=email] {
+        flex: 0 0 300px
+      }
+    }
+  }
+
+  @media(max-width: 500px) {
+    form {
+      flex-direction: column;
+      input[type=email] {
+        flex: auto;
+      }
+    }
+    // input[type=email],input[type=submit] {
+    //   display: block;
+    //   width: 80vw;
+    //   margin: 5px auto;
+    // }
+  }
+
+}
