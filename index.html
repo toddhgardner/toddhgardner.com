@@ -19,7 +19,7 @@ hideFooterAbout: true
 
     <div class="wrapper">
         <ul class="post-list">
-            {% for post in site.categories.article %}
+            {% for post in site.posts %}
             <li class="post-item">
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                     <span class="post-title">{{ post.title }}</span>

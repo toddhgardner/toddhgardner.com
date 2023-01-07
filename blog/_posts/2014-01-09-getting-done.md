@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Getting Done"
-categories: article
+redirect_from: /article/getting-done/
 ---
 
 I have a hundred things I should be doing right now. [My company](http://trackjs.com) is adding customers faster than I can count. My clients have work they need me to finish. I should be making sure my data backups work, or migrating my [email away from Google](http://fastmail.com).

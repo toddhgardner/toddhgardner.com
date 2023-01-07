@@ -2,7 +2,7 @@
 layout: post
 title: "Pub Productivity and the Surface Pro"
 imageBaseUrl: /assets/img/posts/pub-productivity-and-the-surface-pro
-categories: article
+redirect_from: /article/pub-productivity-and-the-surface-pro/
 ---
 
 I wanted a device for working from the Pub. As a small-business owner, I'm always working: at home, at lunch, at happy-hour. I wanted a device more portable than my workhorse laptop so that I could effortlessly bring it with me, but more functional than my mobile phone.

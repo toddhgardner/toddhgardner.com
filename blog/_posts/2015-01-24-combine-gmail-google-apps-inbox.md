@@ -2,7 +2,7 @@
 layout: post
 title: "Combine Gmail and Google Apps Inboxes"
 imageBaseUrl: /assets/img/posts/combine-gmail-google-apps-inbox
-categories: article
+redirect_from: /article/combine-gmail-google-apps-inbox/
 ---
 
 I've recently setup a [Google Apps][google-apps] account for [TrackJS][trackjs]. Right away I missed having all my email in one place--don't make me have two tabs open Google!

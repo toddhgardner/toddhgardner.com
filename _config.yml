@@ -9,6 +9,7 @@ url: "https://toddhgardner.com" # the base hostname & protocol for your site
 image: "/assets/img/toddhgardner-og.jpg"
 
 permalink: /:categories/:title/
+future: true
 
 markdown: kramdown
 highlighter: rouge
