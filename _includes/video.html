@@ -1,6 +1,8 @@
-<figure class="video-youtube">
-  <lite-youtube videoid="{{ include.youtube_id }}" params="color=white&iv_load_policy=3&modestbranding=1&rel=0" videotitle="{{ include.title }}"></lite-youtube>
-  <figcaption>{{ include.title }}</figcaption>
+<figure class="video">
+  <div class="border">
+    <lite-youtube videoid="{{ include.youtube_id }}" params="color=white&iv_load_policy=3&modestbranding=1&rel=0" videotitle="{{ include.title }}"></lite-youtube>
+  </div>
+  <figcaption><a href="https://www.youtube.com/watch?v={{ include.youtube_id }}" target="_blank">{{ include.title }}</a></figcaption>
 </figure>
 
 <!-- JSON-LD Structured Data -->

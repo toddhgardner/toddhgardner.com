@@ -8,6 +8,7 @@ $content-font-family: 'Merriweather', Georgia, serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+$font-weight-bold: 700;
 
 $spacing-unit:     30px;
 
@@ -51,3 +52,4 @@ $on-laptop:        800px;
 @import "home";
 @import "post";
 @import "_includes/_newsletter.scss";
+@import "_includes/_video.scss";
