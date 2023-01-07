@@ -1,0 +1,26 @@
+<figure class="video-youtube">
+  <lite-youtube videoid="{{ include.youtube_id }}" params="color=white&iv_load_policy=3&modestbranding=1&rel=0" videotitle="{{ include.title }}"></lite-youtube>
+  <figcaption>{{ include.title }}</figcaption>
+</figure>
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    "name": "{{ include.title | escape }}",
+    "description": "{{ include.description | strip_html | escape | strip_newline }}",
+    "thumbnailUrl": [
+      "https://img.youtube.com/vi/{{ include.youtube_id }}/mqdefault.jpg"
+     ],
+    "uploadDate": "{{ page.date | date: "%F" }}",
+    "embedUrl": "https://www.youtube.com/embed/{{ include.youtube_id }}",
+    "creator": {
+      "@type": "Person",
+      "name": "Todd H. Gardner",
+      "url": "https://toddhgardner.com/"
+    }
+  }
+</script>
+
+<script src="{{ site.url }}/assets/vendor/lite-youtube/lite-youtube.min.js{% if jekyll.environment == 'production' %}?{{ site.time | date: "%s%N" }}{% endif %}" async></script>
