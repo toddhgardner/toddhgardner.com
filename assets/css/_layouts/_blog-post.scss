@@ -1,0 +1,14 @@
+article.blog-post {
+
+  figure {
+    .border {
+      padding: 8px;
+      border: 1px solid $grey-color-light;
+    }
+    figcaption {
+      text-align: center;
+      font-weight: $font-weight-bold;
+    }
+  }
+
+}
