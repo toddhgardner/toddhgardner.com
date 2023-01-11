@@ -13,3 +13,22 @@ layout: default
 </article>
 
 {% include share.html %}
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ title }}",
+    "image": [
+        "{{ site.url }}{{ page.image }}"
+    ],
+    "mainEntityOfPage": "https://toddhgardner.com/",
+    "datePublished": "{{ page.date | date_to_xmlschema }}",
+    "author": {
+        "@type": "Person",
+        "name": "Todd H. Gardner",
+        "sameAs": "https://toddhgardner.com/"
+    }
+}
+</script>
