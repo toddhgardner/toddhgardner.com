@@ -1,13 +1,14 @@
 ---
-import BaseHead from '../../components/BaseHead.astro';
-import Header from '../../components/Header.astro';
-import Footer from '../../components/Footer.astro';
-import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
-import { getCollection } from 'astro:content';
-import FormattedDate from '../../components/FormattedDate.astro';
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+import { Image } from "astro:assets";
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+const posts = (await getCollection("blog")).sort(
+	(a, b) => b.data.publishedOn.valueOf() - a.data.publishedOn.valueOf(),
 );
 ---
 
@@ -94,10 +95,25 @@ const posts = (await getCollection('blog')).sort(
 						posts.map((post) => (
 							<li>
 								<a href={`/blog/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
+									{post.data.heroImage && (
+										<img
+											width={720}
+											height={360}
+											src={post.data.heroImage}
+											alt={post.data.title}
+										/>
+									)}
+									{post.data.heroImageUrl && (
+										<Image
+											src={import(post.data.heroImageUrl)}
+											alt={post.data.title}
+										/>
+									)}
 									<h4 class="title">{post.data.title}</h4>
 									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
+										<FormattedDate
+											date={post.data.publishedOn}
+										/>
 									</p>
 								</a>
 							</li>

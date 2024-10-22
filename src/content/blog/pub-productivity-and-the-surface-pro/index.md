@@ -1,8 +1,9 @@
 ---
-layout: post
-title: "Pub Productivity and the Surface Pro"
-imageBaseUrl: /assets/img/posts/pub-productivity-and-the-surface-pro
-redirect_from: /article/pub-productivity-and-the-surface-pro/
+title: 'Pub Productivity and the Surface Pro'
+description: |-
+    I wanted a device for working from the Pub. As a small-business owner, I'm always working: at home, at lunch, at happy-hour. I wanted a device more portable than my workhorse laptop so that I could effortlessly bring it with me, but more functional than my mobile phone.
+publishedOn: '2018-01-24'
+heroImage: '/blog-placeholder-3.jpg'
 ---
 
 I wanted a device for working from the Pub. As a small-business owner, I'm always working: at home, at lunch, at happy-hour. I wanted a device more portable than my workhorse laptop so that I could effortlessly bring it with me, but more functional than my mobile phone.
@@ -16,8 +17,7 @@ My main computer is a 2016 15" Macbook Pro from before the touchbar garbage. I l
 
 The hardware on the iPad Pro is amazing. It's light. It's fast. It's responsive. It's almost perfect, except for:
 
-![Uneven keyboard cover on the iPad Pro]({{page.imageBaseUrl}}/ipad-pro-cover.png)
-
+![Uneven keyboard cover on the iPad Pro](ipad-pro-cover.png)
 
 Seriously, doesn't that drive you crazy? Why Apple, why?
 
