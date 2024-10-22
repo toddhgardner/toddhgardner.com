@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Todd H. Gardner</title>
+    <description>Hey! I'm Todd. I develop businesses and build software. I'm the President and Cofounder of TrackJS and the Producer of PubConf. I also consult, train, and speak at all kinds of organizations.
+</description>
+    <link>https://toddhgardner.com/</link>
+    <atom:link href="https://toddhgardner.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 22 Oct 2024 09:45:48 -0500</pubDate>
+    <lastBuildDate>Tue, 22 Oct 2024 09:45:48 -0500</lastBuildDate>
+    <generator>Jekyll v3.9.5</generator>
+    
+      <item>
+        <title>Update 2: NDC London, PubConf, and Request Metrics Analytics</title>
+        <description>&lt;p&gt;Recorded live from Speyside Scotland, right after &lt;a href=&quot;https://ndclondon.com/&quot;&gt;NDC London 2023&lt;/a&gt; and &lt;a href=&quot;https://pubconf.io/events/2023/london/&quot;&gt;PubConf&lt;/a&gt;. Thoughts on the conference, web application security, and then getting back to &lt;a href=&quot;https://requestmetrics.com/&quot;&gt;Request Metrics&lt;/a&gt; with more work on the Analytics side of the product.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;figure class=&quot;video border&quot;&gt;
+  &lt;div class=&quot;border&quot;&gt;
+    &lt;lite-youtube videoid=&quot;RPF818DoP3U&quot; params=&quot;color=white&amp;amp;iv_load_policy=3&amp;amp;modestbranding=1&amp;amp;rel=0&quot; videotitle=&quot;Update 2: NDC London, PubConf, and Request Metrics Analytics&quot;&gt;&lt;/lite-youtube&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=RPF818DoP3U&quot; target=&quot;_blank&quot;&gt;Update 2: NDC London, PubConf, and Request Metrics Analytics&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- JSON-LD Structured Data --&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+  {
+    &quot;@context&quot;: &quot;https://schema.org&quot;,
+    &quot;@type&quot;: &quot;VideoObject&quot;,
+    &quot;name&quot;: &quot;Update 2: NDC London, PubConf, and Request Metrics Analytics&quot;,
+    &quot;description&quot;: &quot;Recorded live from Speyside Scotland, right after NDC London 2023 and PubConf. Thoughts on the conference, web application security, and then getting back to Request Metrics with more work on the Analytics side of the product.
+
+&quot;,
+    &quot;thumbnailUrl&quot;: [
+      &quot;https://img.youtube.com/vi/RPF818DoP3U/mqdefault.jpg&quot;
+     ],
+    &quot;uploadDate&quot;: &quot;2023-02-08&quot;,
+    &quot;embedUrl&quot;: &quot;https://www.youtube.com/embed/RPF818DoP3U&quot;,
+    &quot;creator&quot;: {
+      &quot;@type&quot;: &quot;Person&quot;,
+      &quot;name&quot;: &quot;Todd H. Gardner&quot;,
+      &quot;url&quot;: &quot;https://toddhgardner.com/&quot;
+    }
+  }
+&lt;/script&gt;
+
+&lt;script src=&quot;https://toddhgardner.com/assets/vendor/lite-youtube/lite-youtube.min.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Wed, 08 Feb 2023 00:00:00 -0600</pubDate>
+        <link>https://toddhgardner.com/blog/ndc-london-pubconf-request-metrics-analytics/</link>
+        <guid isPermaLink="true">https://toddhgardner.com/blog/ndc-london-pubconf-request-metrics-analytics/</guid>
+        
+        <category>video,</category>
+        
+        <category>update</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Update 1: 2022 Year in Review</title>
+        <description>&lt;p&gt;The first of (hopefully) a new series of video updates about the web, observability, and my businesses. I had to shut down my Revue-based newsletter, which was honestly difficult to keep up with because writing is hard. Video is way more fun!&lt;/p&gt;
+
+&lt;p&gt;In the first update, I give a quick recap of 2022: how &lt;a href=&quot;https://trackjs.com/&quot;&gt;TrackJS&lt;/a&gt; did, what we are doing with &lt;a href=&quot;https://requestmetrics.com/&quot;&gt;Request Metrics&lt;/a&gt;, and getting back to conferencing.&lt;/p&gt;
+
+&lt;!-- more --&gt;
+
+&lt;figure class=&quot;video border&quot;&gt;
+  &lt;div class=&quot;border&quot;&gt;
+    &lt;lite-youtube videoid=&quot;_O-7xDzdWrU&quot; params=&quot;color=white&amp;amp;iv_load_policy=3&amp;amp;modestbranding=1&amp;amp;rel=0&quot; videotitle=&quot;Update 1: 2022 Year in Review&quot;&gt;&lt;/lite-youtube&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=_O-7xDzdWrU&quot; target=&quot;_blank&quot;&gt;Update 1: 2022 Year in Review&lt;/a&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;!-- JSON-LD Structured Data --&gt;
+&lt;script type=&quot;application/ld+json&quot;&gt;
+  {
+    &quot;@context&quot;: &quot;https://schema.org&quot;,
+    &quot;@type&quot;: &quot;VideoObject&quot;,
+    &quot;name&quot;: &quot;Update 1: 2022 Year in Review&quot;,
+    &quot;description&quot;: &quot;The first of (hopefully) a new series of video updates about the web, observability, and my businesses. I had to shut down my Revue-based newsletter, which was honestly difficult to keep up with because writing is hard. Video is way more fun!
+
+&quot;,
+    &quot;thumbnailUrl&quot;: [
+      &quot;https://img.youtube.com/vi/_O-7xDzdWrU/mqdefault.jpg&quot;
+     ],
+    &quot;uploadDate&quot;: &quot;2023-01-10&quot;,
+    &quot;embedUrl&quot;: &quot;https://www.youtube.com/embed/_O-7xDzdWrU&quot;,
+    &quot;creator&quot;: {
+      &quot;@type&quot;: &quot;Person&quot;,
+      &quot;name&quot;: &quot;Todd H. Gardner&quot;,
+      &quot;url&quot;: &quot;https://toddhgardner.com/&quot;
+    }
+  }
+&lt;/script&gt;
+
+&lt;script src=&quot;https://toddhgardner.com/assets/vendor/lite-youtube/lite-youtube.min.js&quot; async=&quot;&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;After a long hiatus on my newsletter and an even longer hiatus on my blog I decided to come back and do some more video week content than I’d done before.&lt;/p&gt;
+
+&lt;p&gt;I’ve done &lt;a href=&quot;https://www.youtube.com/@RequestMetrics&quot;&gt;video streams for Request Metrics&lt;/a&gt;, but I’d never really done it as like a personal one. I figure it’s probably gonna be easier for me than writing, because writing is hard! With video, we just get to hang out, drink coffee, and pretend we’re all working.&lt;/p&gt;
+
+&lt;h2 id=&quot;growing-trackjs&quot;&gt;Growing TrackJS&lt;/h2&gt;
+&lt;p&gt;It was a good year for me and for my businesses and a lot of really cool stuff happened with &lt;a href=&quot;https://trackjs.com&quot;&gt;TrackJS&lt;/a&gt;, the JavaScript error monitoring software as a service product that I’ve been running for the last nine years.&lt;/p&gt;
+
+&lt;p&gt;We grew up through the renaissance of JavaScript and have seen how good and how bad JavaScript can be. Last year we captured just under a &lt;em&gt;billion errors&lt;/em&gt; from our customers. Developers that sign up drop the error rate by more than 10% in the first month. It’s awesome that we get to help so many people fix things and make the web better.&lt;/p&gt;
+
+&lt;p&gt;Looking at some of our data there, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;script error&lt;/code&gt; remains the top error across our entire data set, which is funny because it is the least useful error that occurs. It is a obfuscation of data that browsers hide a real error because it happened to happen or it happened to occur on a different origin than what your main page is on. I’ve written a bunch of stuff about &lt;a href=&quot;https://trackjs.com/blog/script-error-javascript-forensics/&quot;&gt;Script Error and how to fix it&lt;/a&gt;. I even did a whole conference talk about that back in the day.&lt;/p&gt;
+
+&lt;p&gt;Over this last year, we launched a bunch of improvements. We launched a new SSO system for our our  enterprise customers. We changed over to a new version of Stripe billing. The billing code was some of our oldest and grossest code, it had been around since the beginning. It we good to get that cleaned out.&lt;/p&gt;
+
+&lt;p&gt;We started switching the product over to .NET Core, which has been very exciting. We learned a lot about running .NET core from Request Metrics. There’s a long road on that still, as some of our dependencies have changed significantly over the years. We haven’t switched completely, but hopefully soon it’d be great not to depend on Windows servers anymore.&lt;/p&gt;
+
+&lt;h2 id=&quot;building-and-rebuilding-request-metrics&quot;&gt;Building and Rebuilding Request Metrics&lt;/h2&gt;
+
+&lt;p&gt;The second thing that we did this year was we launched (and started relaunching) our second product &lt;a href=&quot;https://requestmetrics.com/&quot;&gt;Request Metrics&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In 2020, we started building out our web performance monitoring tool called Request Metrics. We were all home with the pandemic and thought, “Hey, we should take our time and do this.” We built a bunch of videos around that that are available out on the internet. &lt;a href=&quot;https://requestmetrics.com/building/&quot;&gt;We recorded all of our development sessions in building that product&lt;/a&gt; out which was super fun to do and we gotta like talk to a bunch of interesting people along the way.&lt;/p&gt;
+
+&lt;p&gt;In 2021, the product grew modestly, but not quite as well as we’d hoped. The performance data we captured were super interesting and unique, but customers wanted to be able to dig into data more than we could offer.&lt;/p&gt;
+
+&lt;p&gt;We were doing everything with aggregate data in order to keep our costs and the price of the service very, very low. Customers wanted to dig in more than they could to understand when we were reporting that a page was slow, why was it slow? And, and we couldn’t do that with aggregate data.&lt;/p&gt;
+
+&lt;p&gt;And they also wanted to know the context of when a page is slow or when, you know, one of the web vitals is showing in a poor state, what was it affecting? Was their conversion rate falling or something like that. And we couldn’t really do either of those things with either the pricing model that we had launched with or the fundamental data model.&lt;/p&gt;
+
+&lt;p&gt;And so we made the decision that we needed to re-scope the product to answer these questions and really kind of expand into a new area that we’re calling client side observability. Which is an exciting time because like there’s a lot of other vendors like Grafana and Honeycomb that seem to be talking about that as well.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;div class=&quot;border&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/2023-01-10/requestmetrics.png&quot; alt=&quot;Request Metrics API Observability.&quot; height=&quot;800&quot; width=&quot;800&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;Request Metrics API Observability.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;So we feel like, hey, maybe we’re riding the wave of something. And I think, I think it’s really cool because what we can do is rather than taking this data and aggregating it together, we’re gonna keep each individual page view, each individual set of data about what the users are doing, what they’re calling, and we’re gonna be able to observe the complete experience of the end user.&lt;/p&gt;
+
+&lt;p&gt;I’m really excited about this. I think this is going to be a cool perspective because we can monitor the place or we can monitor our systems where it’s most relevant, the end user’s perspective on the system is, is really the source of truth.&lt;/p&gt;
+
+&lt;p&gt;There’s a long way to go in that. I’ll be talking a bunch more about that in 2023. I’m sure we’re gonna be flushing out that product more figuring out how we’re gonna price it and how we’re gonna go to market with it and all kinds of stuff like that.&lt;/p&gt;
+
+&lt;h2 id=&quot;getting-strong-and-lifting-heavy&quot;&gt;Getting Strong and Lifting Heavy&lt;/h2&gt;
+
+&lt;p&gt;Late in 2021 and through all of 2022, I have been getting into weightlifting, like lifting heavy with an app called &lt;a href=&quot;https://stronglifts.com/5x5/&quot;&gt;Strong Lifts 5x5&lt;/a&gt;, where it gives me three full body lifts to do, 3 times a week.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;div class=&quot;border&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/2023-01-10/IMG_3871.jpg&quot; alt=&quot;Todd squatting heavy weight.&quot; height=&quot;800&quot; width=&quot;800&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;Todd squatting heavy weight.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It’s been amazing. Like it has been the most productive exercise routine I have ever been on.
+And and over the last year I’ve dropped like 80 pounds and largely kept that off for that entire amount of time with a little ebb and flow as I put on new, new kinds of muscle that I’ve never had before. My squat PR is up to 265 pounds for 25 reps, which is staggering to me.&lt;/p&gt;
+
+&lt;h2 id=&quot;conferencing-and-making-it-a-family-business&quot;&gt;Conferencing and making it a Family Business&lt;/h2&gt;
+
+&lt;p&gt;I got back on the road again this year, visiting conferences in London, Oslo, Minneapolis, and Kansas City. My family came with on some of them. We hit &lt;a href=&quot;https://www.kcdc.info/&quot;&gt;KCDC&lt;/a&gt;, which is a fantastic event, and my wife and daughter helped me work a booth for Request Metrics.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;div class=&quot;border&quot;&gt;
+    &lt;img src=&quot;/assets/img/blog/2023-01-10/IMG_3460.jpg&quot; alt=&quot;Family working the booth at KCDC.&quot; height=&quot;800&quot; width=&quot;800&quot; loading=&quot;lazy&quot; /&gt;
+  &lt;/div&gt;
+  &lt;figcaption&gt;Family working the booth at KCDC.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I loved showing my daughter what I actually do for work. Like for as long as she’s been kind of aware of things. I’ve worked from home, I’ve worked outta my home office, and as like dad didn’t have a job. And so it was great to actually show her that I do have a job, that this is what I do, and that like, there’s a ton of possibilities out there for her.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Jan 2023 00:00:00 -0600</pubDate>
+        <link>https://toddhgardner.com/blog/2022-year-in-review/</link>
+        <guid isPermaLink="true">https://toddhgardner.com/blog/2022-year-in-review/</guid>
+        
+        <category>video,</category>
+        
+        <category>update</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Pub Productivity and the Surface Pro</title>
+        <description>&lt;p&gt;I wanted a device for working from the Pub. As a small-business owner, I’m always working: at home, at lunch, at happy-hour. I wanted a device more portable than my workhorse laptop so that I could effortlessly bring it with me, but more functional than my mobile phone.&lt;/p&gt;
+
+&lt;p&gt;But not a tablet.&lt;/p&gt;
+
+&lt;p&gt;Tablets are still, mostly, about consumption. You watch, read, play, and listen on a tablet. Sometimes you edit on a tablet, but few create, few can “work”, and that’s what I need to do. This is my search for the Pub Productivity computer.&lt;/p&gt;
+
+&lt;h2 id=&quot;apple-ipad-pro&quot;&gt;Apple iPad Pro&lt;/h2&gt;
+&lt;p&gt;My main computer is a 2016 15” Macbook Pro from before the touchbar garbage. I love it, so it was obvious to start with what Apple sees as the solution for the mobile worker: the iPad Pro.&lt;/p&gt;
+
+&lt;p&gt;The hardware on the iPad Pro is amazing. It’s light. It’s fast. It’s responsive. It’s almost perfect, except for:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/pub-productivity-and-the-surface-pro/ipad-pro-cover.png&quot; alt=&quot;Uneven keyboard cover on the iPad Pro&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Seriously, doesn’t that drive you crazy? Why Apple, why?&lt;/p&gt;
+
+&lt;p&gt;The software, on the other hand, is definitely not “Pro”. IOS is still designed around consumption with minor editing capabilities creeping in here and there. I wasn’t going to be able to build slides, fix code, or conduct serious business interactions on it. It’s not what I needed.&lt;/p&gt;
+
+&lt;h2 id=&quot;google-pixelbook&quot;&gt;Google Pixelbook&lt;/h2&gt;
+&lt;p&gt;The other device in my life today is a Google Pixel XL, which I also love, so I looked to Google next.&lt;/p&gt;
+
+&lt;p&gt;The Pixelbook hardware was as good as the iPad, if not better, which is particularly impressive for how young the device line is. The screen was bright and vibrant, keyboard responsive, and it had an excellent touchpad, which I had missed sorely while using the iPad Pro.&lt;/p&gt;
+
+&lt;p&gt;Honestly, I can’t complain about anything with the Pixelbook hardware. It &lt;strong&gt;was&lt;/strong&gt; perfect.&lt;/p&gt;
+
+&lt;p&gt;The problem, again, was the software. ChromeOS was more functional for me than IOS, but there were still whole classes of work that I wouldn’t be able to do. Even with the promise of an integrated Android apps, it only foreshadowed more consumer-first capabilities that I just didn’t need.&lt;/p&gt;
+
+&lt;h2 id=&quot;microsoft-surface-pro&quot;&gt;Microsoft Surface Pro&lt;/h2&gt;
+&lt;p&gt;Begrudgingly, I considered the Surface Pro. Microsoft has released some really interesting devices in the past few years, but I still have this (not entirely undeserved) bad taste in my mouth over their products.&lt;/p&gt;
+
+&lt;p&gt;The hardware of the Surface Pro is very nice. It’s a little bit thicker than I want it to be, and a little bit heavier–but it’s also more powerful. The screen is beautiful, keyboard is responsive, and the touchpad is getting better.&lt;/p&gt;
+
+&lt;p&gt;As is my theme here, the software is really the trouble. The Surface Pro runs Windows 10, which is highly functional and capable of doing everything I could imagine needing to do. But the Surface Pro needs every ounce of its hefty hardware to drive the incredibly heavy Windows 10 OS.&lt;/p&gt;
+
+&lt;p&gt;The “entry level” Surface Pro, with a Core M processor, is woefully unusable–incapable of driving the OS alone jank-free. Don’t bother with anything less than the Core i5. Even then, the device shudders occasionally while resuming, switching apps, or rotating the screen.&lt;/p&gt;
+
+&lt;p&gt;Expect to spend the first 24 hours installing the updates for Windows, reversing the “helpful” setting defaults, and removing their pre-installed bloatware.&lt;/p&gt;
+
+&lt;p&gt;Candy Crush? Really Microsoft?&lt;/p&gt;
+
+&lt;p&gt;If you can get past that–and I know, it’s a big if–it is really amazing what I can do with this smallish device. Powering through emails and work tasks in Firefox, updating and editing slides in Powerpoint, or fixing bits of software with Visual Studio Code, it all worked well-enough for me to be productive.&lt;/p&gt;
+
+&lt;p&gt;So that’s what I bought, and what I’m writing this article on now: my Surface Pro 2017 i5. I now have an Apple laptop, a Google phone, and a Microsoft tablet. Screw vendor lock in!&lt;/p&gt;
+
+&lt;p&gt;It’s definitely not going to replace my Macbook Pro as the daily workhorse, but it’s portable enough and functional enough to get the job done when down at the pub.&lt;/p&gt;
+
+&lt;p&gt;Cheers!&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 24 Jan 2018 00:00:00 -0600</pubDate>
+        <link>https://toddhgardner.com/blog/pub-productivity-and-the-surface-pro/</link>
+        <guid isPermaLink="true">https://toddhgardner.com/blog/pub-productivity-and-the-surface-pro/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Apple Power Adapter Hack</title>
+        <description>&lt;p&gt;I just purchased a new 2015 Macbook Pro, which is fantastic. The first brand of computer that I’ve ever purchased more than once. But they have a major flaw: the Power Adapter cords. Maybe I’m just too rough with them, but they tear and fray on me around the ends.&lt;/p&gt;
+
+&lt;p&gt;These cables aren’t cheap, so one of the first things I did after unboxing was to reinforce the cables. It’s a quick hack that you can do with a few extra clicky-pens you have laying about.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/apple-power-adapter-hack/1.jpg&quot; alt=&quot;Spring wrapped on Apple Power Cable&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;First, get the springs out of two clicky-pens for the two ends of the power cable. Also remember to disconnect the cable from power so you don’t get an accidental shock.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/apple-power-adapter-hack/3.jpg&quot; alt=&quot;Spring wrapped on Apple Power Cable&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Take one spring and push a gap about halfway into the spring onto the cable next to one end, below the neck. Note the turn of the spring and carefully wind with the turn down the length of the cable.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/apple-power-adapter-hack/4.jpg&quot; alt=&quot;Spring wrapped on Apple Power Cable&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When you get to the end of the spring, you may need a pliers to get the last bit wrapped. Be sure to get the end gripping tight, it may dig a bit into the plastic, which will hold it in place.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/apple-power-adapter-hack/5.jpg&quot; alt=&quot;Spring wrapped on end of cable&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Take the unwound end of the spring and wind it over the neck. If you can get at least one turn of the spring over the neck, you can “screw” the spring on fully. Try to get the spring as close to the end as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/apple-power-adapter-hack/6.jpg&quot; alt=&quot;Spring wrapped on end of cable&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Repeat for the other side, and enjoy an better tensioned cable with fewer tears.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 04 Jun 2015 00:00:00 -0500</pubDate>
+        <link>https://toddhgardner.com/blog/apple-power-adapter-hack/</link>
+        <guid isPermaLink="true">https://toddhgardner.com/blog/apple-power-adapter-hack/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Combine Gmail and Google Apps Inboxes</title>
+        <description>&lt;p&gt;I’ve recently setup a &lt;a href=&quot;https://www.google.com/work/apps/business/&quot;&gt;Google Apps&lt;/a&gt; account for &lt;a href=&quot;http://trackjs.com&quot;&gt;TrackJS&lt;/a&gt;. Right away I missed having all my email in one place–don’t make me have two tabs open Google!&lt;/p&gt;
+
+&lt;p&gt;After some quick searching, it looks like there are a few ways to make this happen. Most of the Internet thinks I should setup a POP account. But then I need to wait for the polling period, and that’s not fast enough for my obsessive-compulsive emailing!&lt;/p&gt;
+
+&lt;p&gt;Instead, I setup forwarding. From you Google Apps account, setup Account Forwarding to your personal account.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/combine-gmail-google-apps-inbox/combine-gmail-google-apps-inbox-1.png&quot; alt=&quot;Google Apps Setup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You’ll have to confirm it with an emailed link to your personal account, but that easily solves the first part of the problem. Now you need to respond. From your Gmail account, setup a an account to “Send Mail As” and add your information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/combine-gmail-google-apps-inbox/combine-gmail-google-apps-inbox-2.png&quot; alt=&quot;Gmail Setup&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Make sure to check “Reply from the same address the message was sent to”, so you don’t get some confused customers.&lt;/p&gt;
+
+&lt;p&gt;That’s it! The magic of Google mail makes everything else work.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 24 Jan 2015 00:00:00 -0600</pubDate>
+        <link>https://toddhgardner.com/blog/combine-gmail-google-apps-inbox/</link>
+        <guid isPermaLink="true">https://toddhgardner.com/blog/combine-gmail-google-apps-inbox/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+      <item>
+        <title>Getting Done</title>
+        <description>&lt;p&gt;I have a hundred things I should be doing right now. &lt;a href=&quot;http://trackjs.com&quot;&gt;My company&lt;/a&gt; is adding customers faster than I can count. My clients have work they need me to finish. I should be making sure my data backups work, or migrating my &lt;a href=&quot;http://fastmail.com&quot;&gt;email away from Google&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I know, I’ll start a blog.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I could share all these interesting things I’m working on. Surely people care about that!&lt;/p&gt;
+
+&lt;p&gt;What I should talk about is &lt;strong&gt;breaking through software perfectionism and shipping!&lt;/strong&gt; Clearly, there is no irony in delaying my other projects to start a blog about getting software done.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Where do I begin?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;There are hundreds of things to do: automate deployment, tailor UI, brand graphics, content schedules, commenting systems… this will take me days to build!&lt;/p&gt;
+
+&lt;p&gt;Like all my projects, I &lt;del&gt;wanted&lt;/del&gt; needed the perfect system. It had to be as valuable as &lt;a href=&quot;http://hanselman.com&quot;&gt;Hanselman&lt;/a&gt; and as polished as &lt;a href=&quot;http://37signals.com/svn&quot;&gt;Signal vs Noise&lt;/a&gt;. It had to represent my experience as a developer and reflect my own values. Because &lt;em&gt;“if something is worth doing, it’s worth doing right”&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Right?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;That idea has destroyed more projects than I care to recall. I’ve never built even one system “right”, how could I do it for everything?&lt;/p&gt;
+
+&lt;p&gt;What do I &lt;strong&gt;really&lt;/strong&gt; need to do here? This blog isn’t the important project, it is a gateway to the important projects. It needs to get done. I need to ship and move on.&lt;/p&gt;
+
+&lt;p&gt;What is Minimum Viable Product (MVP) here?&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Grab a domain&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.digitalocean.com/community/articles/how-to-use-the-digitalocean-ghost-application&quot;&gt;Install a blog platform&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Write something&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;That’s what I really need to do. Get it done.&lt;/p&gt;
+
+&lt;p&gt;Software isn’t done. It’s never done, but it can be good enough. This blog is good enough, for now. Now I’m moving forward to shipping things that matter.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 09 Jan 2014 00:00:00 -0600</pubDate>
+        <link>https://toddhgardner.com/blog/getting-done/</link>
+        <guid isPermaLink="true">https://toddhgardner.com/blog/getting-done/</guid>
+        
+        
+        <category>blog</category>
+        
+      </item>
+    
+  </channel>
+</rss>
